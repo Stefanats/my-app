@@ -1,0 +1,17 @@
+@import "../../vars.scss";
+
+.add-player__modal {
+    display: flex;
+    flex-direction: column;
+
+    .add-player__modal-input {
+        margin: $gutter / 3;
+    }
+
+    .add-player__modal-button {
+        margin: $gutter auto;
+    }
+    .add-player__modal-checkbox {
+        margin: 10px;
+    }
+}

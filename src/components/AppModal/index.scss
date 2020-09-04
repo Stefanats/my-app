@@ -1,0 +1,28 @@
+@import "../../vars.scss";
+
+.app-modal {
+    position: absolute;
+    display: flex;
+    top: 20px;
+    left: 20px;
+    height: 770px;
+    width: 340px;
+    z-index: 2;
+    border-radius: 30px;
+    background: $modal-transparent;
+    justify-content: center;
+    padding-top: 70px;
+
+    &__container {
+        padding: $gutter / 1.5;
+        background: $grey-300;
+        border-radius: $gutter;
+        height: fit-content;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: $bold;
+        margin-bottom: $gutter;
+    }
+}

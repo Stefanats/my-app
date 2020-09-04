@@ -1,0 +1,20 @@
+@import "../../vars.scss";
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    background: $white;
+    border-top-left-radius: $gutter;
+    border-top-right-radius: $gutter;
+    padding: $gutter 0;
+    align-items: center;
+
+    &__wrapper {
+        overflow-y: scroll;
+        height: 560px;
+        width: 85%;
+        padding: 0 $gutter;
+        margin-top: $gutter;
+    }
+}

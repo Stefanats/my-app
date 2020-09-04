@@ -1,0 +1,23 @@
+@import "../../vars.scss";
+
+.input {
+    border: none;
+    background: $white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: $grey-400;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $grey-400;
+}
+
+::placeholder {
+    color: $grey-400;
+}

@@ -1,0 +1,29 @@
+@import "../../vars.scss";
+
+.search-bar {
+    padding: $gutter;
+    display: flex;
+    justify-content: space-between;
+
+    &__modal {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: $bold;
+        .custom-input-wrapper {
+            margin-bottom: $gutter / 2;
+        }
+        .custom-input {
+            width: 50px;
+            padding: $gutter / 6;
+            margin-left: $gutter / 3;
+        }
+    }
+
+    &__modal-button {
+        margin: $gutter auto 0 auto;
+    }
+    &__reset-button {
+        margin: $gutter / 2 auto 0 auto;
+    }
+}

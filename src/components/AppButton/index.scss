@@ -1,0 +1,38 @@
+@import "../../vars.scss";
+
+.button {
+    background: $primary;
+    border: none;
+    color: $white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.normal {
+    border-radius: 20px;
+    padding: 10px 60px;
+}
+
+.circle {
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.square {
+    border-radius: 5px;
+    padding: 10px;
+    background: $white;
+}
+
+.disabled {
+    background: $grey-500;
+}
+
+.inverted {
+    background: transparent;
+    color: $primary;
+}
